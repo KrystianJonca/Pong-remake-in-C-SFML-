@@ -10,7 +10,7 @@ GameStates::GameStates(void)
 	buffer.loadFromFile("Assets/Klik.wav");
 	state = END;
 	click.setBuffer(buffer);
-	window.create(sf::VideoMode{ 800,600 }, "SaveEarth");
+	window.create(sf::VideoMode{ 800,600 }, "Pong");
 	window.setFramerateLimit(60);
 	state = MENU;
 }
